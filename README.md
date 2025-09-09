@@ -1,80 +1,18 @@
 # NYC_GREEN_TAXI_TRIP-ANALYSIS
 Overview
-This project focuses on analyzing the New York City Green Taxi Trip Records dataset. The dataset contains millions of trip-level records collected by the NYC Taxi & Limousine Commission (TLC).
 
-The purpose of this analysis is to:
-
-Explore trip patterns
-
-Study passenger behavior
-
-Derive revenue-related insights
-
-Uncover trends that can benefit taxi companies, drivers, and policymakers
-
-The analysis covers multiple aspects including distance, fare amounts, tip amounts, pickup and drop-off locations, and time-based demand trends.
+This project explores and analyzes the New York City Green Taxi Trip Records dataset provided by the NYC Taxi & Limousine Commission (TLC). The dataset consists of millions of individual trip records, including details such as pickup and drop-off locations, trip distance, fare amount, passenger count, payment type, and tip amount. The purpose of this project is to gain a deeper understanding of taxi usage patterns, identify factors that influence revenue, and uncover actionable insights that can assist taxi companies, drivers, and policymakers in decision-making.
 
 Dataset
-The dataset includes detailed information about each trip, such as:
 
-Pickup and Drop-off Datetime
-
-Pickup and Drop-off Location IDs
-
-Trip Distance (miles)
-
-Passenger Count
-
-Fare Amount
-
-Tip Amount
-
-Total Amount
-
-Payment Type
-
-Data Source: NYC Taxi & Limousine Commission
+The dataset contains rich trip-level details, including pickup and drop-off timestamps, location IDs, distance traveled in miles, number of passengers, fares, tips, and total trip amounts, as well as the type of payment used. Together, these attributes provide a comprehensive view of how green taxi services operate in New York City. The data used for this analysis was obtained from the official TLC records, which serve as a reliable source for transportation research and policy evaluation.
 
 Objectives
-Perform Exploratory Data Analysis (EDA) on Green Taxi trip records
 
-Identify revenue patterns across distances and zones
+The main objective of this project is to perform a detailed exploratory data analysis of green taxi trips. Specifically, the analysis aims to identify how distance impacts revenue, which pickup and drop-off zones are the most profitable, how time of day and day of week affect demand, and how different payment methods correlate with tipping behavior. Additionally, the project evaluates passenger count trends and their influence on both trip length and earnings. Through these analyses, the project provides a holistic view of the dynamics underlying green taxi operations.
 
-Analyze passenger behavior such as trip frequency and average distance
+Analysis and Insights
 
-Visualize trends using charts, plots, and maps
-
-Generate actionable recommendations for improving service efficiency and profitability
-
-Key Analyses
-Trip Distance vs Revenue
-Bucket trips by distance ranges
-
-Evaluate impact of distance on fare and total revenue
-
-Top Pickup and Drop-off Locations
-Rank zones by average revenue and trip frequency
-
-Identify most profitable and least used zones
-
-Time-based Trends
-Analyze trips by hour of the day
-
-Study patterns across days of the week and months
-
-Identify peak demand periods
-
-Payment Methods
-Study distribution of payment types (cash, credit, etc.)
-
-Analyze impact of payment type on tips and revenue
-
-Passenger Count Impact
-Evaluate how the number of passengers affects trip revenue
-
-Study relationship between passenger count and trip distance
-
-Deliverables
-Cleaned and pre-processed dataset
+The analysis reveals several important findings. Revenue generally increases with trip distance, although the revenue earned per mile declines beyond medium-distance trips, suggesting diminishing returns on very long journeys. A small number of zones account for a disproportionately large share of revenue, indicating that certain locations act as key demand hubs. The majority of trips are relatively short, often under three miles, but long-distance trips, while less frequent, contribute significantly to overall earnings. Time-based analysis shows that evenings witness the highest number of trips and the greatest revenue generation, while weekdays and weekends display distinct demand patterns. Payment type analysis highlights that credit card transactions dominate and are strongly associated with higher tip amounts compared to cash, pointing to behavioral differences among passenger groups.rocessed dataset
 
 SQL-based and visualization-driven insights
